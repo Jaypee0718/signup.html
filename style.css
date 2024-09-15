@@ -1,0 +1,81 @@
+body{
+    background:url(https://64.media.tumblr.com/04184a97630acfadfd80a7bd7ff135bc/tumblr_pm563daqqM1tgo74ho1_1280.gif);
+    background-position:center;
+    background-size: 1500px; width: 1500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+label{
+    font-style: sans-serif;
+    color: rgb(174, 64, 64);
+}
+h1{
+    font-style: sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+input[type="text"], input[type="password"]{
+    width: 10%;
+    height:10%;
+    padding: 10px;
+    margin: 18px 0;
+    border: 1px solid aqua;
+    border-radius: 4px;
+
+}
+input[type="text"], input[type="email"]{
+    width: 10%;
+    height:10%;
+    padding: 10px;
+    margin: 18px 0;
+    border: 1px solid aqua;
+    border-radius: 4px;
+}
+input[type="text"], input[type="Last Name"]{
+    width: 10%;
+    height:10%;
+    padding: 10px;
+    margin: 18px 0;
+    border: 1px solid aqua;
+    border-radius: 4px;
+}.container{
+    text-align: center;
+    padding: 50%px;
+    border: 1px solid #85d4ed;
+    border-radius: 8px;
+    width: 300px;
+}
+input[type="button"], input[value="Submit"]{
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label{
+    color: aliceblue;
+}
+p{
+    color:aliceblue;
+}
+button{
+    color: aqua;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.Sign:hover{
+    background-color: rgb(220, 188, 143);
+    font-style: italic;
+
+}
+audio{
+    size: 10;
+}
+

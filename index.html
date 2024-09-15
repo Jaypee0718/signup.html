@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 70px;
+            border: 2px solid #85d4ed;
+            border-radius: 8px;
+            width: 400px;
+            box-shadow: 5px 5px 50px;
+            color: black;
+        }
+        
+        
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 50%;
+            padding:10px;
+            margin: 10px 0;
+            border: 1px solid aqua;
+            border-radius: 4px;
+            background-color: rgb(146, 207, 207);
+        }
+        button.Submit-btn:hover {
+            background-color: rgb(84, 160, 160);
+        }
+        .terms {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SIGN UP HERE</h1>
+        <div class="form-border">
+            <form>
+                <label for="Full Name">Full Name:</label>
+                <br>
+                <input required type="text" placeholder="Full Name">
+                <br>
+
+                <label for="Email">Email:</label>
+                <br>
+                <input required type="email" id="Email" placeholder="Email">
+                <br>
+
+                <label for="Password">Password:</label>
+                <br>
+                <input required type="password" id="Password" placeholder="Password">
+                <br>
+
+                <label for="Confirm Password">Confirm Password:</label>
+                <br>
+                <input required type="password" id="Confirm Password" placeholder="Confirm Password">
+                <br>
+
+                <div class="terms">
+                    <input type="checkbox" id="Terms">
+                    <label for="Terms">Remember me</label>
+                </div>
+
+                <center>
+                    <br>
+                    <button><a href="genshinloading.html">Sign Up</a></button>
+                    <br>
+                </center>
+
+                <center>
+                    <hr><p class="login-form-copy">You can follow and like us on:</p><hr>
+                </center>
+
+                <center>
+                    <a href="https://www.facebook.com/">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png" width="50">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="https://static.vecteezy.com/system/resources/previews/017/743/717/large_2x/instagram-icon-logo-free-png.png" width="50">
+                    </a>
+                    <a href="https://www.tiktok.com/explore">
+                        <img src="https://static.vecteezy.com/system/resources/previews/016/716/450/original/tiktok-icon-free-png.png" width="50">
+                    </a>
+                </center>
+                <p>@fallarcuna,JohnPaul</p>
+                <audio controls autoplay loop><br>
+                    <source src="AdhesiveWombat  Night Shade  NO COPYRIGHT 8bit Music.mp3">
+                </audio><br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
